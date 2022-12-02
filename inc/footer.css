@@ -1,0 +1,129 @@
+
+.footer {
+    width: 100%;
+    height: 520px;
+    display: flex;
+    background-color: var(--white-color);
+}
+
+.footer__brand {
+    width: 70px;
+    position: relative;
+}
+
+.footer__brand-logo {
+    width: 140px;
+    transform: rotate(270deg);
+    position: absolute;
+    bottom: 124px;
+    left: -38px;
+}
+
+.footer__content {
+    background-color: var(--primary-color);
+    width: 100%;
+    position: relative;
+}
+
+.footer__content-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #fff;
+}
+
+.footer__content-block-slogan {
+    width: 60%;
+    height: 100%;
+}   
+
+.footer__content-block-slogan-text {
+    font-size: 7rem;
+    font-weight: 600;
+    padding-right: 120px;
+    padding-left: 40px;
+    line-height: 120px;
+}
+
+.footer__content-block-contact {
+    width: 40%;
+    height: 100%;
+}
+
+.footer__content-block-contact-title {
+    padding-top: 220px;
+    font-size: 2.4rem;
+    margin: 12px 0;
+}
+
+.footer__content-block-contact-address {
+    font-size: 1.6rem;
+    padding-right: 120px;
+    line-height: 20px;
+    font-weight: 200;
+    margin-bottom: 24px;
+}
+
+.footer__content-block-contact-info {
+    display: flex;
+    width: 100%;
+}
+
+.footer__content-block-contact-info-divice {
+    width: 70%;
+}
+
+.footer__content-block-contact-info-divice-item {
+    font-size: 1.6rem;
+    font-weight: 200;
+    position: relative;
+    padding: 12px 0;
+}
+
+.footer__content-block-contact-info-divice-item-name {
+    position: absolute;
+}
+
+.footer__content-block-contact-info-divice-item-text {
+    position: absolute;
+    left: 80px;
+}
+
+.footer__content-block-contact-info-social {
+    width: 30%;
+    margin-top: 6px;
+}
+
+.footer__content-block-contact-info-social-item {
+    color: #fff;
+    padding: 4px 0;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 200;
+    position: relative;
+}
+
+.footer__content-block-contact-info-social-item-icon {
+    position: absolute;
+    left: 80px;
+    font-weight: 200;
+    font-size: 1.4rem;
+}
+
+.footer__rule {
+    height: 72px;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer__rule span {
+    padding: 0 24px;
+    line-height: 72px;
+    height: 72px;
+    width: 50%;
+}

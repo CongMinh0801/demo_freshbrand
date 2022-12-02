@@ -1,0 +1,202 @@
+.approach_page-container__header {
+    width: 100%;
+    display: flex;
+    padding: 48px;
+    box-sizing: border-box;
+    color: var(--black-color);
+}
+
+.approach_page-container__header-block:nth-child(1) {
+    width: 35%;
+    display: flex;
+}
+
+.approach_page-container__header-block:nth-child(2) {
+    width: 65%;
+}
+
+.approach_page-container__header-title {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 16px;
+    color: var(--black-color);
+}
+
+.approach_page-container__header-icon {
+    padding-left: 24px;
+    display: block;
+    font-size: 5rem;
+    box-sizing: border-box;
+    color: var(--black-color);
+}
+
+.approach_page-container__header-slogan {
+    font-size: 6rem;
+    line-height: 72px;
+    font-weight: 600;
+    color: var(--black-color);
+}
+
+.approach_page-container__header-paragraph {
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: var(--black-color);
+}
+
+.approach_page-container__banner{
+}
+
+.approach_page-container__banner-img-2,
+.approach_page-container__banner-img{
+    padding-left: 24px;
+}
+
+
+.approach_page-container__thinking {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 48px;
+}
+
+.approach_page-container__thinking-block:nth-child(1) {
+    width: 35%;
+    display: flex;
+}
+.approach_page-container__thinking-block:nth-child(2) {
+    width: 65%;
+}
+
+.approach_page-container__thinking-block-title {
+    color: var(--black-color);
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.approach_page-container__thinking-block-icon {
+    color: var(--black-color);
+    font-size: 5rem;
+    display: block;
+    padding-left: 24px;
+}
+
+.approach_page-container__thinking-block-paragraph {
+    color: var(--black-color);
+    font-size: 1.6rem;
+    line-height: 24px;
+}
+
+.approach_page-container__thinking-block-slogan {
+    color: var(--black-color);
+    font-size: 4.8rem;
+    line-height: 68px;
+    margin: 0;
+}
+
+
+.approach_page-container__method {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 60px 0;
+    padding-left: 15%;
+    display: flex;
+}
+
+.approach_page-container__method-item {
+    width: 25%;
+    box-sizing: border-box;
+    padding-right: 48px;
+}
+
+.approach_page-container__method-item-img {
+    width: 60%;
+    padding-left: 10%;
+    padding-bottom: 60px;
+}
+
+.approach_page-container__method-item-name {
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-bottom: 92px;
+    color: var(--black-color);
+}
+
+.approach_page-container__method-item-detail {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--black-color);
+}
+
+
+
+.approach_page-container__listOfThinkingMethod {
+    box-sizing: border-box;
+    padding: 0 48px;
+}
+
+.approach_page-container__listOfThinkingMethod-item {
+    
+}
+
+.approach_page-container__listOfThinkingMethod-item-title {
+    font-size: 10rem;
+    font-weight: 600;
+    line-height: 120px;
+    animation-name: changeColor;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+
+.approach_page-container__listOfThinkingMethod-item-detail {
+    color: var(--black-color);
+    font-size: 2.4rem;
+    padding-top: 12px;
+    margin-bottom: 72px;
+    width: 100%;
+    border-bottom: 1px solid var(--black-color);
+    
+}
+
+.approach_page-container__listOfThinkingMethod-item-detail-block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.4rem;
+    cursor: pointer;
+}
+
+.approach_page-container__listOfThinkingMethod-item-detail span{
+    color: var(--black-color);
+    display: block;
+    max-width: 80%;
+    line-height: 32px;
+}
+
+.approach_page-container__listOfThinkingMethod-item-detail i{
+    font-size: 4rem;
+    color: var(--black-color);
+}
+
+
+.approach_page-container__listOfThinkingMethod-item-detail-list{
+    display: flex;
+}
+
+.approach_page-container__listOfThinkingMethod-item-detail-list ul{
+    margin-right: 60px;
+}
+
+.approach_page-container__listOfThinkingMethod-item-detail-list li{
+    font-size: 1.6rem;
+    color: var(--black-color);
+    line-height: 32px;
+}
+
+.approach_page-container__listOfThinkingMethod-item-detail-list.visible{
+    display: none;
+}
+
+.approach_page-container__listOfThinkingMethod-item-detail-list.appear{
+    display: flex;
+}

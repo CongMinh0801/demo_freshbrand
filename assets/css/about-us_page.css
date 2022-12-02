@@ -1,0 +1,264 @@
+
+.about-us_page-container__workspace,
+.about-us_page-container__customer,
+.about-us_page-container__content,
+.about-us_page-container__story,
+.about-us_page-container__header {
+    display: flex;
+    margin-top: 48px;
+}
+
+.about-us_page-container__customer,
+.about-us_page-container__workspace{
+    margin-top: 120px;
+}
+
+.about-us_page-container__workspace-block:nth-child(1),
+.about-us_page-container__customer-block:nth-child(1),
+.about-us_page-container__content-block:nth-child(1),
+.about-us_page-container__story-block:nth-child(1),
+.about-us_page-container__header-block:nth-child(1) {
+    width: 42%;
+    box-sizing: border-box;
+    padding-left: 48px;
+    position: relative;
+}
+
+.about-us_page-container__workspace-block:nth-child(2),
+.about-us_page-container__customer-block:nth-child(2),
+.about-us_page-container__content-block:nth-child(2),
+.about-us_page-container__story-block:nth-child(2),
+.about-us_page-container__header-block:nth-child(2)  {
+    width: 58%;
+    box-sizing: border-box;
+    padding-right: 48px;
+}  
+
+.about-us_page-container__workspace-block-title,
+.about-us_page-container__customer-block-title,
+.about-us_page-container__story-block-title,
+.about-us_page-container__header-title {
+    font-size: 2.8rem;
+    font-weight: 600;
+    position: absolute;
+    top: 20px;
+    left: 48px;
+    color: var(--black-color);
+}
+
+.about-us_page-container__workspace-block-title,
+.about-us_page-container__customer-block-title{
+    max-width: 180px;
+    line-height: 30px;
+}
+
+.about-us_page-container__workspace-block-icon,
+.about-us_page-container__customer-block-icon,
+.about-us_page-container__story-block-icon,
+.about-us_page-container__header-icon {
+    font-size: 5rem;
+    position: absolute;
+    left: 220px;
+    top: 4px;
+    color: var(--black-color);
+}
+
+.about-us_page-container__workspace-block-icon,
+.about-us_page-container__customer-block-icon{
+    top: 24px;
+    left: 240px;
+}
+
+
+.about-us_page-container__header-slogan {
+    font-size: 6rem;
+    line-height: 80px;
+    font-weight: 600;
+    color: var(--black-color);
+}
+
+.about-us_page-container__workspace-block:nth-child(2) p,
+.about-us_page-container__customer-block:nth-child(2) p,
+.about-us_page-container__content-block-paragraph,
+.about-us_page-container__story-block:nth-child(2) p,
+.about-us_page-container__header-paragraph {
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: var(--black-color);
+}
+
+.about-us_page-container__team{
+    margin: 0 24px;
+    display: block;
+    margin-top: 20px;
+}
+
+.about-us_page-container__team-img{
+
+}
+
+.about-us_page-container__story{
+    margin: 196px 0;
+    color: var(--black-color);
+}
+
+
+
+.about-us_page-container__message{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 72px;
+    line-height: 70px;
+}
+
+.about-us_page-container__message p{
+    font-size: 5.4rem;
+    color: var(--black-color);
+}
+
+.about-us_page-container__content{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: var(--black-color);
+}
+
+.about-us_page-container__method {
+    display: flex;
+    margin: 72px 48px;
+}
+
+.about-us_page-container__method-block:nth-child(1) {
+    width: 15%;
+}   
+
+.about-us_page-container__method-block:nth-child(2) {
+    width: 45%;
+}
+
+.about-us_page-container__method-block:nth-child(3) {
+    width: 40%;
+}
+
+.about-us_page-container__method-block-title {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 30px;
+    padding-right: 16px;
+    color: var(--black-color);
+}
+
+.about-us_page-container__method-block-arrow {
+    height: 20%;
+}
+
+.about-us_page-container__method-block-arrow-icon {
+    font-size: 5rem;
+    color: var(--black-color);
+}
+
+.about-us_page-container__method-block-lists {
+    display: flex;
+}
+
+.about-us_page-container__method-block-lists-list {
+    width: 50%;
+    padding-top: 24px;
+}
+
+.about-us_page-container__method-block-lists-list-item {
+    font-size: 1.3rem;
+    color: var(--black-color);
+    display: block;
+    position: relative;
+    height: 32px;
+    line-height: 32px;
+}
+
+.about-us_page-container__method-block-lists-list-item i{
+    position: absolute;
+    left: 200px;
+    top: 6px;
+    color: var(--black-color);
+}
+
+.about-us_page-container__method-block-img {
+    display: block;
+    width: 100%;
+}
+
+.about-us_page-container__listcustomer {
+    margin: 0 48px;
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-us_page-container__listcustomer-item{
+    width: 33%;
+    color: var(--black-color);
+    padding-bottom: 48px;
+}
+
+.about-us_page-container__listcustomer-item p{
+    font-size: 1.6rem;
+}
+
+.about-us_page-container__listcustomer-item-title{
+    font-size: 1.8rem;
+    
+}
+
+
+
+.about-us_page-container__workimg {
+    margin: 96px 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-us_page-container__workimg-item {
+    display: block;
+    background-color: var(--black-color);
+}
+
+.about-us_page-container__workimg-item:nth-child(1){
+    background-image: url(../img/freshbrand-about-us-2.jpg);
+    background-size: cover;
+    background-clip: content-box;
+    padding: 4px;
+    width: 1144px;
+    height: 538px;
+}
+.about-us_page-container__workimg-item:nth-child(2){
+    background-image: url(../img/freshbrand-about-us-3.jpg);
+    background-size: cover;
+    background-clip: content-box;
+    padding: 4px;
+    width: 652px;
+    height: 382px;
+}
+.about-us_page-container__workimg-item:nth-child(3){
+    background-image: url(../img/freshbrand-about-us-8.jpg);
+    background-size: cover;
+    background-clip: content-box;
+    padding: 4px;
+    width: 482px;
+    height: 382px;
+}
+.about-us_page-container__workimg-item:nth-child(4){
+    background-image: url(../img/freshbrand-about-us-5.jpg);
+    background-size: cover;
+    background-clip: content-box;
+    padding: 4px;
+    width: 486px;
+    height: 226px;
+}
+.about-us_page-container__workimg-item:nth-child(5){
+    background-image: url(../img/freshbrand-about-us-7.jpg);
+    background-size: cover;
+    background-clip: content-box;
+    padding: 4px;
+    width: 814px;
+    height: 460px;
+}

@@ -1,0 +1,547 @@
+
+body {
+    background-color: var(--white-color);
+}
+
+.home_page-container {
+    margin-top: 70px;
+    background-color: var(--white-color);
+}
+
+.home_page-container__categories {
+    display: flex;
+    justify-content: right;
+    padding-right: 52px;
+    height: 30px;
+    color: var(--black-color);
+}
+
+.home_page-container__categories-sevices {
+    width: 200px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}   
+
+.home_page-container__categories-sevices-list {
+    width: 200px;
+    height: 0;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.home_page-container__categories-sevices-list-item {
+    width: 200px;
+    display: block;
+    font-size: 1.4rem;
+    line-height: 22px;
+    transition: all ease-in 0.18s;
+    color: var(--black-color);
+}
+
+.home_page-container__categories-career {
+    width: 240px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.home_page-container__categories-career-list {
+    width: 240px;
+    height: 0;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.home_page-container__categories-career-list-item {
+    width: 240px;
+    display: block;
+    font-size: 1.4rem;
+    line-height: 22px;
+    transition: all ease-in 0.18s;
+    color: var(--black-color);
+}
+
+
+.home_page-container__categories-sevices i,
+.home_page-container__categories-career i{
+    padding-left: 12px;
+}
+
+.home_page-container__categories-career-list-item:hover,
+.home_page-container__categories-sevices-list-item:hover {
+    padding-left: 18px;
+}
+
+.home_page-container__specialize {
+    color: var(--black-color);
+    padding-bottom: 24px;
+}
+
+.home_page-container__specialize-title {
+    padding: 0 38px;
+    padding-bottom: 24px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.home_page-container__specialize-content {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    padding: 0 38px;
+    box-sizing: border-box;
+}
+
+.home_page-container__specialize-content-list {
+    width: 35%;
+    height: 100%;
+    display: flex;
+}
+
+.home_page-container__specialize-content-list-child {
+    width: 50%;
+    height: 100%;
+}
+
+.home_page-container__specialize-content-list-child-item {
+    display: block;
+    font-size: 1.2rem;
+    position: relative;
+    line-height: 30px;
+    color: var(--black-color);
+}
+
+.home_page-container__specialize-content-list-child-item i{
+    position: absolute;
+    left: 190px;
+    top: 8px;
+}
+
+.home_page-container__specialize-content-arrow {
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 28px;
+}
+
+.home_page-container__specialize-content-arrow-icon {
+    font-size: 4rem;
+}
+
+.home_page-container__specialize-content-slogan {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.home_page-container__specialize-content-slogan-text {
+    margin: 0;
+    line-height: 75px;
+}
+
+.home_page-container__specialize-content-slogan-change {
+    margin: 0;
+    line-height: 75px;
+    animation-name: changeColor;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    position: relative;
+}   
+
+.home_page-container__specialize-content-slogan-change::after{
+    content: "";
+    position: absolute;
+    animation-name: changeText;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.home_page-container__product {
+    width: 100%;
+}
+
+.home_page-container__product-banner {
+    margin: 0 24px;
+    margin-bottom: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.home_page-container__product-banner-img:nth-child(1) {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    right:100%;
+    box-sizing: border-box;
+    background-image: url(https://freshbrand.vn/wp-content/uploads/2020/06/Brand-sign_logo-SCB-bank-keyvisual-freshbrand-design-agency-vietnam-1.png);
+    background-size: cover;
+    background-clip: content-box;
+}
+
+.home_page-container__product-banner-img:nth-child(2) {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    right:100%;
+    box-sizing: border-box;
+    background-image: url(https://freshbrand.vn/wp-content/uploads/2019/07/gocharm-branding-design-agency-vietnam-brand-identity-FreshBrand-Henry-graphic-designer-vietnam-21.jpg);
+    background-size: cover;
+    background-clip: content-box;
+}
+
+.home_page-container__product-banner-img:nth-child(3) {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    right:100%;
+    box-sizing: border-box;
+    background-image: url(https://freshbrand.vn/wp-content/uploads/2020/06/nnst-vietnam-modern-packaging-packaging-design-agency-vietnam-freshbrand-agency-tea-packaging-hong-tra-dac-biet-tea-packaging-1.png);
+    background-size: cover;
+    background-clip: content-box;
+}
+
+.home_page-container__product-banner-img:nth-child(4) {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    right:100%;
+    box-sizing: border-box;
+    background-image: url(https://freshbrand.vn/wp-content/uploads/2019/03/thiet-ke-logo-nhan-dien-thuong-hieu-langkingdom_freshbrand-23.jpg);
+    background-size: cover;
+    background-clip: content-box;
+    
+}
+
+
+.home_page-container__product-list {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home_page-container__product-list-item {
+    width: 50%;
+    height: 366px;
+    display: block;
+    outline: none;
+    box-sizing: border-box;
+    padding: 4px;
+    background-clip: content-box;
+    background-color: antiquewhite;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+}
+
+.home_page-container__product-list-item-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.home_page-container__product-list-item:hover .home_page-container__product-list-item-overlay{
+    display: block;
+} 
+
+.home_page-container__product-list-item-overlay {
+    position: absolute;
+    left: 4px;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;
+    background-color:var(--primary-color);
+    color: var(--text-color);
+    font-weight: 400;
+    display: none;
+}
+
+.home_page-container__product-list-item-overlay-name {
+    position: absolute;
+    font-size: 3rem;
+    top: 16px;
+    left: 16px;
+}
+.home_page-container__product-list-item-overlay-career {
+    position: absolute;
+    font-size: 1.6rem;
+    top: 46px;
+    left: 16px;
+}
+.home_page-container__product-list-item-overlay-sevices {
+    position: absolute;
+    font-size: 1.6rem;
+    bottom: 16px;
+    left: 16px;
+}
+.home_page-container__product-list-item-overlay-view {
+    position: absolute;
+    font-size: 1.4rem;
+    bottom: 16px;
+    right: 16px;
+}
+.home_page-container__product-list-item-overlay-arrow {
+    position: absolute;
+    font-size: 5rem;
+    transform: rotate(-45deg);
+    top: 16px;
+    right: 16px;
+}
+
+
+.home_page-container__more-product {
+    position: relative;
+    margin: 100px 48px;
+    height: 240px;
+    color: var(--black-color);
+}
+
+.home_page-container__more-product-content {
+    font-size: 2.8rem;
+    max-width: 50%;
+    position: absolute;
+    line-height: 48px;
+}
+
+.home_page-container__more-product-button {
+    position: absolute;
+    font-size: 1.4rem;
+    right: 200px;
+    top: 32px;
+}
+
+.home_page-container__more-product-button a{
+    color: var(--black-color);
+}
+
+.home_page-container__more-product-button-icon {
+    font-size: 12rem;
+    transform: rotate(-45deg);
+    color: var(--black-color);
+}
+
+
+.home_page-container__method {
+    margin-left: 96px;
+    margin-right: 48px;
+    display: flex;
+    align-items: center;
+    color: var(--black-color);
+}
+.home_page-container__method-child {
+    
+}
+.home_page-container__method-child-list {
+
+}
+
+.home_page-container__method-child-list-item {
+    font-size: 2.6rem;
+    height: 70px;
+    width: 360px;
+    color: var(--black-color);
+    line-height: 70px;
+    position: relative;
+    border-bottom: 1px solid var(--black-color);
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.home_page-container__method-child-list-item i{
+    position: absolute;
+    left: 340px;
+    top: 34px;
+    font-size: 2.2rem;
+}
+
+.home_page-container__method-child-list-item a {
+    color: var(--black-color);
+}
+
+.home_page-container__method-child-content {
+    font-size: 2.6rem;
+    line-height: 48px;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.home_page-container__method-child:nth-child(1) {
+    width: 30%;
+    margin-right: 240px;
+}
+
+.home_page-container__method-child:nth-child(2) {
+    width: 60%;
+}
+
+
+.home_page-container__message {
+    margin: 0 48px;
+    padding: 160px 0;
+    text-align: center;
+}
+
+.home_page-container__message-text {
+    font-size: 5.4rem;
+    line-height: 60px;
+    color: var(--black-color);
+}
+
+.home_page-container__customer {
+    color: var(--black-color);
+    margin-bottom: 100px;
+}
+
+.home_page-container__customer-header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 48px;
+}
+
+.home_page-container__customer-header-title {
+    font-size: 2.4rem;
+}   
+
+.home_page-container__customer-more {
+    box-sizing: border-box;
+    padding-right: 48px;
+}
+
+.home_page-container__customer-more a{
+    color: var(--black-color);
+    font-size: 1.8rem;
+    position: relative;
+    line-height: 70px;
+}
+
+.home_page-container__customer-more i {
+    position: absolute;
+    transform: rotate(-45deg);
+    font-size: 4rem;
+    top: -10px;
+    right: -52px;
+}
+
+.home_page-container__customer-content {
+    width: 70%;
+    margin-left: 30%;
+    box-sizing: border-box;
+    padding: 0 48px;
+}
+
+.home_page-container__customer-content-list {
+    height: 110px;
+    border-top: 1px solid var(--black-color);
+    display: flex;
+}
+
+.home_page-container__customer-content-list:nth-child(4){
+    border-bottom: 1px solid var(--black-color);
+}
+
+.home_page-container__customer-content-list-item {
+    width: 25%;
+    height: 100%;   
+    filter: grayscale(1);
+    transition: all ease-in 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_page-container__customer-content-list-item-img{
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+}
+
+.home_page-container__customer-content-list-item:hover{
+    filter: grayscale(0);
+}
+
+.home_page-container__instagram {
+    margin: 70px 48px;
+    margin-left: 26px;
+}
+
+.home_page-container__instagram-header {
+    height: 70px;
+    color: var(--black-color);
+    font-size: 2.4rem;
+    margin-left: 48px;
+    padding-top: 100px;
+}
+
+.home_page-container__instagram-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home_page-container__instagram-item {
+    height: 422px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 44px;
+    padding-bottom: 44px;
+    width: 33.33%;
+    box-sizing: border-box;
+    background-clip: content-box;
+    position: relative;
+}
+
+.home_page-container__instagram-item:nth-child(1){
+    background-image: url("https://freshbrand.vn/wp-content/uploads/2020/03/GoCharm.png");
+    background-size: cover;
+}
+
+.home_page-container__instagram-item:nth-child(2){
+    background-image: url("https://freshbrand.vn/wp-content/uploads/2020/03/Lang-Kingdom-7a.png");
+    background-size: cover;
+}
+
+.home_page-container__instagram-item:nth-child(3){
+    background-image: url("https://freshbrand.vn/wp-content/uploads/2020/03/Kingness-Coffee-1a.png");
+    background-size: cover;
+}
+
+.home_page-container__instagram-item:nth-child(4){
+    background-image: url("https://freshbrand.vn/wp-content/uploads/2020/03/BANG-1a.png");
+    background-size: cover;
+}
+
+.home_page-container__instagram-item:nth-child(5){
+    background-image: url("https://freshbrand.vn/wp-content/uploads/2020/03/KHouse-2a.png");
+    background-size: cover;
+}
+
+.home_page-container__instagram-item:nth-child(6){
+    background-image: url("https://freshbrand.vn/wp-content/uploads/2020/03/RD-NaPa-Valley-USA-2a.png");
+    background-size: cover;
+}
+
+.home_page-container__instagram-item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.home_page-container__instagram-item-border{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    border-right: 1px solid var(--black-color);
+    border-top: 1px solid var(--black-color);
+}
+
